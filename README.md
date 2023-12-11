@@ -58,4 +58,4 @@ How does the site update the DOM?  What pages show examples of updating the DOM?
 with text indicating the correct answer and is a different message if it was wrong or right.
 
 Does the site include extra credit, including: PHP, Database, Flexbox, Grid, CSS Media Queries or AJAX.  Please explain.
-The site uses CSS Grid on the Fun Facts Page and the Resume page to help organize the items in specific areas.
+* The site uses CSS Grid on the Fun Facts Page and the Resume page to help organize the items in specific areas.
