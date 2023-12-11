@@ -1,0 +1,16 @@
+td {
+    padding: 2px 2px 15px 10px;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.left-border {
+    border-left: solid black 2px;
+}
+
+tr.rmPadding > td {
+    padding-bottom: 2px;
+}

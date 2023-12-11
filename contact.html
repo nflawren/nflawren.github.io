@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nicole Lawrence</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/contact.css">
+    </head>
+    <body>
+        <div id="nav">
+            <custom-nav page-id="contact"></custom-nav>
+        </div>
+        <header>
+            <h2>Nicole Lawrence</h2>
+        </header>
+        <main>
+            <section>
+                <p>
+                    I'd love to get in contact! Fill out the form below and I'll get back to you!
+                </p>
+            </section>
+            <section class="media-section">
+                <form id="contact-me-form" action="mailto:nflawren@bu.edu" method="post" enctype="text/plain">
+                    <div id="nameInput" class="input">
+                        <label class="textLabel" for="name">Name:</label>
+                        <input class="textInput" type="text" id="name" name="name" placeholder="Enter Name Here">
+                        <div id="name-error-message" class="error" hidden></div>
+                    </div>
+                    <div id="contactTypeInput" class="input">
+                        <label for="contactType" class="textLabel">Contact Type:</label>
+                        <select class="textInput" name="contactType" id="contactType" form="contact-me-form">
+                            <option disabled selected value="">Please Select</option>
+                            <option value="phone">Phone</option>
+                            <option value="email">Email</option>
+                        </select>
+                    </div>
+                    <div id="contactInfoInput" class="input">
+                        <label for="contactInfo" class="textLabel">Contact Info:</label>
+                        <input class="textInput" type="text" id="contactInfo" name="contactInfo" placeholder="Enter Contact Info Here">
+                        <div id="contact-info-message" class="error" hidden></div>
+                    </div>
+                    <div id="messageInput" class="input">
+                        <label class="textLabel" for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Enter Message Here" rows="5" cols="50"></textarea>
+                    </div>
+                    <button type="submit" class="submit">Submit</button>
+                    <button type="reset" class="reset">Reset</button>
+                </form>
+            </section>
+        </main>
+        <script src="js/main.js"></script>
+    </body>
+</html>

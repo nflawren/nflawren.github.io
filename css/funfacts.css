@@ -1,0 +1,25 @@
+.question {
+    border: solid black 1px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    background-color: var(--light-accent);
+}
+
+.instructions {
+    text-align: center;
+}
+
+ul {
+    list-style-type: lower-alpha;
+}
+
+li {
+    padding-bottom: 0.25rem;
+    cursor: pointer;
+}
+
+.questions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}

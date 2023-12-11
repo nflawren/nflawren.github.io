@@ -1,0 +1,23 @@
+thead, tr:nth-child(even) {
+    background-color: var(--dark-accent);
+    color: var(--light-accent);
+}
+table {
+    border-collapse: collapse;
+}
+.contact-info > ul{
+    list-style-type: none;
+}
+
+.experience ul {
+    padding-inline-start: 20px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+ul ul {
+    padding-inline-start: 20px;
+}

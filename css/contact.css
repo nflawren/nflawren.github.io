@@ -1,0 +1,43 @@
+form {
+    text-align: left;
+}
+
+.textInput {
+    height: 30px;
+    border: solid 1px;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 160px;
+}
+
+.textLabel {
+    width: 100px;
+}
+
+.input {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+textarea {
+    border: solid 1px;
+    border-radius: 0.5rem;
+}
+
+button {
+    height: 30px;
+    margin: 5px;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+button.submit {
+    background-color: var(--dark-accent);
+    color: var(--light-accent);
+    margin-left: 100px;
+}
+
+button.rest {
+    background-color: var(--light-accent);
+    color: var(--dark-accent);
+}

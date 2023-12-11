@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nicole Lawrence - Photography</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="nav">
+            <custom-nav page-id="photo"></custom-nav>
+        </div>
+        <header>
+            <h2>Photography</h2>
+        </header>
+        <main>
+            <section>
+                <p>
+                    One of my hobbies is photography. I've always loved taking photos to capture moments and memories and the artistic composition of taking
+                    photos. In high school I took a photography course as well as a summer photography class, where I was able
+                    to learn about composing photos and editing photos.
+                </p>
+            </section>
+            <section id="photo-gallery" class="media-section">
+                <img height=200 src="assets/Dune.jpg" alt="beach dune">
+                <img height=200 src="assets/Guardians.jpeg" alt="guardians of the galaxy ship">
+                <img height=200 src="assets/NiagaraFalls.jpg" alt="niagara falls">
+                <img height=200 src="assets/Shore.jpg" alt="shoreline and ocean">
+                <img height=200 src="assets/Sunset.jpg" alt="sunset behind some buildings and a fence">
+                <img height=200 src="assets/Clouds.jpg" alt="clouds out a plane window">
+                <img height=200 src="assets/OBX.jpg" alt="grassy beach dune with ocean in background">
+                <img height=200 src="assets/Bridge.jpg" alt="bridge">
+                <img height=200 src="assets/Epcot.jpeg" alt="epcot ball">
+            </section>
+        </main>
+        <script src="js/main.js"></script>
+        <script>
+            $.getElementById('photo-gallery').animate({scrollTop: '300px'}, 1000)
+        </script>
+    </body>
+</html>

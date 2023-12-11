@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Nicole Lawrence</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
+        <script src="js/funfacts.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/funfacts.css">
+    </head>
+    <body>
+        <div id="nav">
+            <custom-nav page-id="facts"></custom-nav>
+        </div>
+        <header>
+            <h2>Fun Facts</h2>
+        </header>
+        <main>
+            <section>
+                <p class="instructions">
+                    Play two truths and a lie! Out of the three grouped facts, choose which is false about me.
+                </p>
+            </section>
+            <section class="questions">
+                <section class="question">
+                    <ul id="family-facts">
+                        <li id="family-a">I only have 5 first cousins.</li>
+                        <li id="family-b">Most of my family also attended University of Vermont.</li>
+                        <li id="family-c">I am one of 5 engineers in my family, with another aspiring engineer applying to college.</li>
+                    </ul>
+                    <p id="family-message" class="message" hidden></p>
+                </section>
+                <section class="question">
+                    <ul id="school-facts">
+                        <li id="school-a">I almost declared a business major before deciding on math before my sophomore year of college.</li>
+                        <li id="school-b">I was in my high school's marching band.</li>
+                        <li id="school-c">I was in all of my high school's theater productions.</li>
+                    </ul>
+                    <p id="school-message" class="message" hidden></p>
+                </section>
+                <section class="question">
+                    <ul id="hobbies-facts">
+                        <li id="hobbies-a">I love to play board games, and am known to be very competitive.</li>
+                        <li id="hobbies-b">During the pandemic, I learned how to make my own stickers.</li>
+                        <li id="hobbies-c">Running is my favorite way to exercise.</li>
+                    </ul>
+                    <p id="hobbies-message" class="message" hidden></p>
+                </section>
+            </section>
+        </main>
+        <script src="js/main.js"></script>
+    </body>
+</html>
