@@ -3,11 +3,7 @@
     --secondary-color: #A4B494;
     --light-accent: #D0D5C3;
     --dark-accent: #3b5249;
-    --medium-accent: #519872;
     --black: #34252f;
-}
-body {
-    color: black;
 }
 
 .selected {
@@ -92,32 +88,16 @@ table {
 
 @media (max-width:525px) {
     body {
-        /*display: grid;*/
-        /*grid-template-columns: repeat(2, 1fr);*/
-        /*gap: 10px;*/
         align-items: center;
     }
 
     nav {
-        /*max-width: max-content;*/
-        /*flex-direction: column;*/
         text-align: center;
         gap: 10px;
         overflow: scroll;
     }
 
-    #nav {
-        /*grid-column: 1;*/
-        /*grid-row: 1/3;*/
-    }
-
-    header {
-        /*grid-row: 1;*/
-        /*grid-column: 1/3;*/
-    }
-
     main {
         max-width: 25rem;
-        /*grid-column: 2;*/
     }
 }
